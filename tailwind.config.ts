@@ -61,7 +61,12 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				// Investment vertical colors
+				'tge-blue': 'hsl(var(--tge-blue))',
+				'edtech-yellow': 'hsl(var(--edtech-yellow))',
+				'refi-green': 'hsl(var(--refi-green))',
+				'defi-red': 'hsl(var(--defi-red))'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
