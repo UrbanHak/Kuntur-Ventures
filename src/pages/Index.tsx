@@ -41,20 +41,22 @@ const Index = () => {
         {!showForm ? (
           <>
             {/* Main Content */}
-            <main className="max-w-4xl mx-auto text-center mb-16">
-              <h1 className="text-6xl md:text-7xl font-bold text-foreground mb-8 tracking-tight">
-                $1 BILLION
-                <br />
-                <span className="text-5xl md:text-6xl font-light">COMMITMENT</span>
-              </h1>
-              
-              <p className="text-xl md:text-2xl text-muted-foreground mb-16 max-w-3xl mx-auto leading-relaxed">
-                TO INVEST IN LATIN AMERICA
-                <br />
-                AND THE CARIBBEAN
-                <br />
-                IN TECH AND WEB3
-              </p>
+            <main className="max-w-5xl mx-auto text-center mb-16">
+              <div className="mb-12">
+                <h1 className="text-5xl md:text-8xl font-light text-foreground mb-6 tracking-tight leading-none">
+                  <span className="text-6xl md:text-9xl font-bold tracking-wider">$1B</span>
+                  <br />
+                  <span className="text-4xl md:text-6xl font-extralight tracking-[0.15em]">COMMITMENT</span>
+                </h1>
+                
+                <div className="h-px bg-gradient-to-r from-transparent via-muted-foreground to-transparent w-32 mx-auto mb-8"></div>
+                
+                <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed font-light tracking-wide">
+                  <span className="text-foreground font-normal">INTO LATAM AND THE CARIBBEAN</span>
+                  <br />
+                  <span className="text-sm md:text-base tracking-[0.2em] mt-2 block">FROM THE WEB3 SECTOR</span>
+                </p>
+              </div>
 
               {/* Investment Verticals */}
               <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-16 text-left">
