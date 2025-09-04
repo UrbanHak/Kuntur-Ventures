@@ -18,8 +18,8 @@ const SignupForm = () => {
     await new Promise(resolve => setTimeout(resolve, 2000));
     
     toast({
-      title: "Application Submitted",
-      description: "We'll be in touch soon regarding your participation in the Condor commitment.",
+      title: "Pledge Submitted",
+      description: "Thank you for supporting the Condor commitment. We'll keep you updated.",
     });
     
     setIsSubmitting(false);
@@ -28,9 +28,9 @@ const SignupForm = () => {
   return (
     <Card className="w-full max-w-2xl mx-auto bg-card border-border">
       <CardHeader className="text-center">
-        <CardTitle className="text-2xl font-light">Join the Commitment</CardTitle>
+        <CardTitle className="text-2xl font-light">One Click Pledge</CardTitle>
         <CardDescription className="text-muted-foreground">
-          Apply to participate in the $1 Billion investment commitment
+          Support the $1 Billion commitment as an individual
         </CardDescription>
       </CardHeader>
       <CardContent>
@@ -51,49 +51,12 @@ const SignupForm = () => {
             <Input id="email" type="email" required className="bg-input border-border" />
           </div>
           
-          <div className="space-y-2">
-            <Label htmlFor="company">Company/Organization</Label>
-            <Input id="company" required className="bg-input border-border" />
-          </div>
-          
-          <div className="space-y-2">
-            <Label htmlFor="role">Role</Label>
-            <Select>
-              <SelectTrigger className="bg-input border-border">
-                <SelectValue placeholder="Select your role" />
-              </SelectTrigger>
-              <SelectContent>
-                <SelectItem value="executive">Executive</SelectItem>
-                <SelectItem value="investor">Investor</SelectItem>
-                <SelectItem value="fund-manager">Fund Manager</SelectItem>
-                <SelectItem value="entrepreneur">Entrepreneur</SelectItem>
-                <SelectItem value="other">Other</SelectItem>
-              </SelectContent>
-            </Select>
-          </div>
-          
-          <div className="space-y-2">
-            <Label htmlFor="interest">Primary Interest Area</Label>
-            <Select>
-              <SelectTrigger className="bg-input border-border">
-                <SelectValue placeholder="Select investment vertical" />
-              </SelectTrigger>
-              <SelectContent>
-                <SelectItem value="tge">TGE Phase Acceleration</SelectItem>
-                <SelectItem value="edtech">Web3 EdTech</SelectItem>
-                <SelectItem value="refi">Regeneration ReFi</SelectItem>
-                <SelectItem value="defi">Financial Inclusion DeFi</SelectItem>
-                <SelectItem value="multiple">Multiple Areas</SelectItem>
-              </SelectContent>
-            </Select>
-          </div>
-          
           <Button 
             type="submit" 
             className="w-full bg-primary text-primary-foreground hover:bg-primary/90"
             disabled={isSubmitting}
           >
-            {isSubmitting ? "Submitting..." : "Apply Now"}
+            {isSubmitting ? "Submitting..." : "Submit Pledge"}
           </Button>
         </form>
       </CardContent>

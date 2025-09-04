@@ -79,10 +79,10 @@ const Index = () => {
                   size="lg"
                   className="bg-primary text-primary-foreground hover:bg-primary/90 px-8 py-4 text-lg font-light tracking-wide"
                 >
-                  Join the Commitment
+                  One Click Pledge
                 </Button>
                 <p className="text-sm text-muted-foreground mt-4">
-                  For executives, enterprises, investors and investment firms
+                  Support as an individual with just your name and email
                 </p>
               </div>
             </main>
