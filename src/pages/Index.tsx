@@ -6,26 +6,21 @@ import { Button } from "@/components/ui/button";
 const Index = () => {
   const [showForm, setShowForm] = useState(false);
 
-  const verticals = [
+  const objectives = [
     {
-      title: "Acceleration of projects in TGE phase",
-      description: "Supporting promising Web3 projects approaching Token Generation Events with strategic investment and guidance.",
+      title: "Sign the Pledge",
+      description: "Join our one-page commitment document for the public good of Latinamerica and the Caribbean. Support the foundational movement building toward Web3 ecosystem growth.",
       color: "bg-tge-blue"
     },
     {
-      title: "Education and transfer of knowledge Web3 EdTech", 
-      description: "Fostering blockchain education and knowledge transfer through innovative educational technology platforms.",
+      title: "Colombia Acceleration Program",
+      description: "Pre-TGE acceleration for Colombian scaleups and SMEs in Web3 and Industry 4.0. Colombia serves as our strategic starting point for regional expansion.",
       color: "bg-edtech-yellow"
     },
     {
-      title: "Regeneration ReFi",
-      description: "Investing in regenerative finance solutions that create positive environmental and social impact.",
+      title: "Ecosystem Mapping & Tracking",
+      description: "Comprehensive mapping of startups, incubators, and accelerators across LATAM. Building intelligence to track and achieve our $1B investment goal.",
       color: "bg-refi-green"
-    },
-    {
-      title: "Financial Inclusion DeFi",
-      description: "Democratizing financial services through decentralized finance solutions for underserved communities.",
-      color: "bg-defi-red"
     }
   ];
 
@@ -53,20 +48,22 @@ const Index = () => {
                 <div className="h-px bg-gradient-to-r from-transparent via-muted-foreground to-transparent w-32 mx-auto mb-8"></div>
                 
                 <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed font-light tracking-wide">
-                  <span className="text-foreground font-normal">INTO LATAM AND THE CARIBBEAN</span>
+                  <span className="text-foreground font-normal">BUILDING THE FOUNDATION FOR</span>
                   <br />
-                  <span className="text-sm md:text-base tracking-[0.2em] mt-2 block">FROM THE WEB3 SECTOR</span>
+                  <span className="text-foreground font-normal">LATAM & CARIBBEAN WEB3 ECOSYSTEM</span>
+                  <br />
+                  <span className="text-sm md:text-base tracking-[0.2em] mt-2 block">PHASE 1: FOUNDATION & ACCELERATION</span>
                 </p>
               </div>
 
-              {/* Investment Verticals */}
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-16 text-left">
-                {verticals.map((vertical, index) => (
+              {/* Phase 1 Objectives */}
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16 text-left">
+                {objectives.map((objective, index) => (
                   <InvestmentVertical
                     key={index}
-                    title={vertical.title}
-                    description={vertical.description}
-                    color={vertical.color}
+                    title={objective.title}
+                    description={objective.description}
+                    color={objective.color}
                     index={index}
                   />
                 ))}
@@ -82,7 +79,7 @@ const Index = () => {
                   One Click Pledge
                 </Button>
                 <p className="text-sm text-muted-foreground mt-4">
-                  Support as an individual with just your name and email
+                  Join the foundational movement for LATAM & Caribbean Web3 growth
                 </p>
               </div>
             </main>
@@ -108,7 +105,7 @@ const Index = () => {
         {/* Footer */}
         <footer className="text-center pt-16 border-t border-border">
           <p className="text-sm text-muted-foreground">
-            Condor Investment Commitment © 2024
+            Condor Ventures - Phase 1 Foundation Initiative © 2024
           </p>
         </footer>
       </div>

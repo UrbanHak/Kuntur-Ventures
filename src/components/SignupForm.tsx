@@ -19,7 +19,7 @@ const SignupForm = () => {
     
     toast({
       title: "Pledge Submitted",
-      description: "Thank you for supporting the Condor commitment. We'll keep you updated.",
+      description: "Thank you for joining the Condor Ventures foundation initiative. Together we're building the future of LATAM Web3.",
     });
     
     setIsSubmitting(false);
@@ -30,7 +30,7 @@ const SignupForm = () => {
       <CardHeader className="text-center">
         <CardTitle className="text-2xl font-light">One Click Pledge</CardTitle>
         <CardDescription className="text-muted-foreground">
-          Support the $1 Billion commitment as an individual
+          Sign our commitment document for the public good of Latinamerica and the Caribbean
         </CardDescription>
       </CardHeader>
       <CardContent>
