@@ -1,5 +1,4 @@
 import { useState } from "react";
-import CondorLogo from "@/components/CondorLogo";
 import InvestmentVertical from "@/components/InvestmentVertical";
 import SignupForm from "@/components/SignupForm";
 import { Button } from "@/components/ui/button";
@@ -35,7 +34,9 @@ const Index = () => {
       <div className="container mx-auto px-6 py-12">
         {/* Header */}
         <header className="text-center mb-16">
-          <CondorLogo className="justify-center mb-8" />
+          <div className="mb-8">
+            <h2 className="text-lg font-light tracking-[0.3em] text-muted-foreground">CONDOR VENTURES</h2>
+          </div>
         </header>
 
         {!showForm ? (
