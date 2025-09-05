@@ -1,36 +1,8 @@
-import bitbaselLogo from "@/assets/partners/bitbasel-white.png";
-import ldaCapitalLogo from "@/assets/partners/lda-capital-white.png";
-import coinfundLogo from "@/assets/partners/coinfund-white.png";
-import kpmgLogo from "@/assets/partners/kpmg-white.png";
-import crackedLabsLogo from "@/assets/partners/cracked-labs-white.png";
+// Partner logos will be imported here once provided
 
 const Partners = () => {
   const partners = [
-    {
-      name: "BitBasel",
-      logo: bitbaselLogo,
-      url: "https://www.bitbasel.miami/"
-    },
-    {
-      name: "LDA Capital",
-      logo: ldaCapitalLogo,
-      url: "https://ldacap.com/"
-    },
-    {
-      name: "CoinFund",
-      logo: coinfundLogo,
-      url: "https://coinfund.io/"
-    },
-    {
-      name: "KPMG",
-      logo: kpmgLogo,
-      url: "https://kpmg.com/"
-    },
-    {
-      name: "Cracked Labs",
-      logo: crackedLabsLogo,
-      url: "https://crackedlabs.org/"
-    }
+    // Partners will be added once logos are provided
   ];
 
   return (
@@ -41,26 +13,14 @@ const Partners = () => {
         </h2>
         <div className="h-px bg-gradient-to-r from-transparent via-muted-foreground to-transparent w-20 mx-auto mb-6"></div>
         <p className="text-muted-foreground max-w-lg mx-auto leading-relaxed text-sm">
-          Collaborating with leading organizations to accelerate Web3 innovation across Latinamerica, Andean and Caribbean regions
+          Working together along with leading investors and organizations accelerating Web3and Industry 4.0 innovation across Latinamerica, Andean and Caribbean regions
         </p>
       </div>
       
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 items-center justify-items-center">
-        {partners.map((partner, index) => (
-          <a
-            key={index}
-            href={partner.url}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="group transition-all duration-300 hover:scale-105 opacity-70 hover:opacity-100"
-          >
-            <img
-              src={partner.logo}
-              alt={`${partner.name} logo`}
-              className="h-12 md:h-16 w-auto object-contain opacity-70 group-hover:opacity-100 transition-all duration-300"
-            />
-          </a>
-        ))}
+        <div className="col-span-full text-center text-muted-foreground">
+          Partner logos will appear here once provided
+        </div>
       </div>
     </div>
   );

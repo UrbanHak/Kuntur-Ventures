@@ -10,17 +10,17 @@ const Index = () => {
   const objectives = [
     {
       title: "Sign the Pledge",
-      description: "Join our one-page commitment document for the public good of Latinamerica, Andean and Caribbean regions. Support Condor Ventures' movement building toward Web3 ecosystem growth.",
+      description: "Join our one-page commitment document for the public good of Latinamerica, Andean and Caribbean regions. Support Condor Ventures movement building towards Web3 and Industry 4.0 ecosystem growth.",
       color: "bg-tge-blue"
     },
     {
       title: "TGE Acceleration Program",
-      description: "Pre-TGE acceleration for Latinamerican scaleups and SMEs in Web3 and Industry 4.0. Strategic starting point for regional expansion.",
+      description: "TGE Acceleration program located in Colombia for latinamerican scaleups....",
       color: "bg-edtech-yellow"
     },
     {
       title: "Ecosystem Mapping & Tracking",
-      description: "Comprehensive mapping of startups, incubators, and accelerators across Latinamerica, Andean and Caribbean regions. Building intelligence to track and achieve our $1B investment goal.",
+      description: "Comprehensive mapping of startups, support systems, incubators, accelerators as well as Venture Capital investment across Latinamerica, Andean and Caribbean region....",
       color: "bg-refi-green"
     }
   ];
@@ -72,11 +72,11 @@ const Index = () => {
               <div className="mb-16">
                 <div className="text-center mb-12">
                   <h2 className="text-3xl md:text-4xl font-light text-foreground mb-4 tracking-tight">
-                    Areas of Focus
+                    Strategic Areas of Focus
                   </h2>
                   <div className="h-px bg-gradient-to-r from-transparent via-muted-foreground to-transparent w-24 mx-auto mb-6"></div>
                   <p className="text-muted-foreground max-w-xl mx-auto leading-relaxed">
-                    Strategic investment verticals driving Web3 innovation across Latinamerica, Andean and Caribbean tech ecosystems
+                    Working together along with leading investors and organizations accelerating Web3and Industry 4.0 innovation across Latinamerica, Andean and Caribbean regions
                   </p>
                 </div>
                 
