@@ -9,7 +9,7 @@ const Index = () => {
   const objectives = [
     {
       title: "Sign the Pledge",
-      description: "Join our one-page commitment document for the public good of Latinamerica, Andean and Caribbean regions. Support the foundational movement building toward Web3 ecosystem growth.",
+      description: "Join our one-page commitment document for the public good of Latinamerica, Andean and Caribbean regions. Support Condor Ventures' movement building toward Web3 ecosystem growth.",
       color: "bg-tge-blue"
     },
     {
@@ -45,11 +45,11 @@ const Index = () => {
                 <div className="h-px bg-gradient-to-r from-transparent via-muted-foreground to-transparent w-32 mx-auto mb-8"></div>
                 
                 <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed font-light tracking-wide">
-                  <span className="text-foreground font-normal">BUILDING THE FOUNDATION FOR</span>
+                  <span className="text-foreground font-normal">ACCELERATING</span>
                   <br />
                   <span className="text-foreground font-normal">LATINAMERICA, ANDEAN AND CARIBBEAN TECH ECOSYSTEMS</span>
                   <br />
-                  <span className="text-sm md:text-base tracking-[0.2em] mt-2 block">PHASE 1: FOUNDATION & ACCELERATION</span>
+                  <span className="text-sm md:text-base tracking-[0.2em] mt-2 block">PRESENTED BY CONDOR VENTURES</span>
                 </p>
               </div>
 
@@ -122,7 +122,7 @@ const Index = () => {
                   One Click Pledge
                 </Button>
                 <p className="text-sm text-muted-foreground mt-4">
-                  Join the foundational movement for Latinamerica, Andean and Caribbean tech ecosystems growth
+                  Join Condor Ventures' initiative for Latinamerica, Andean and Caribbean tech ecosystems growth
                 </p>
               </div>
             </main>
@@ -148,7 +148,7 @@ const Index = () => {
         {/* Footer */}
         <footer className="text-center pt-16 border-t border-border">
           <p className="text-sm text-muted-foreground">
-            Phase 1 Foundation Initiative © 2024
+            Condor Ventures Initiative © 2024
           </p>
         </footer>
       </div>
