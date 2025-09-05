@@ -12,9 +12,6 @@ const Partners = () => {
           Our Strategic Partners
         </h2>
         <div className="h-px bg-gradient-to-r from-transparent via-muted-foreground to-transparent w-20 mx-auto mb-6"></div>
-        <p className="text-muted-foreground max-w-lg mx-auto leading-relaxed text-sm">
-          Working together along with leading investors and organizations accelerating Web3and Industry 4.0 innovation across Latinamerica, Andean and Caribbean regions
-        </p>
       </div>
       
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 items-center justify-items-center">

@@ -72,12 +72,9 @@ const Index = () => {
               <div className="mb-16">
                 <div className="text-center mb-12">
                   <h2 className="text-3xl md:text-4xl font-light text-foreground mb-4 tracking-tight">
-                    Strategic Areas of Focus
+                    Areas of Focus
                   </h2>
                   <div className="h-px bg-gradient-to-r from-transparent via-muted-foreground to-transparent w-24 mx-auto mb-6"></div>
-                  <p className="text-muted-foreground max-w-xl mx-auto leading-relaxed">
-                    Working together along with leading investors and organizations accelerating Web3and Industry 4.0 innovation across Latinamerica, Andean and Caribbean regions
-                  </p>
                 </div>
                 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 text-left">
