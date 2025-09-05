@@ -1,8 +1,8 @@
-import bitbaselLogo from "@/assets/partners/bitbasel-logo.png";
-import ldaCapitalLogo from "@/assets/partners/lda-capital-logo.png";
-import coinfundLogo from "@/assets/partners/coinfund-logo.png";
-import kpmgLogo from "@/assets/partners/kpmg-logo.png";
-import crackedLabsLogo from "@/assets/partners/cracked-labs-logo.png";
+import bitbaselLogo from "@/assets/partners/bitbasel-white.png";
+import ldaCapitalLogo from "@/assets/partners/lda-capital-white.png";
+import coinfundLogo from "@/assets/partners/coinfund-white.png";
+import kpmgLogo from "@/assets/partners/kpmg-white.png";
+import crackedLabsLogo from "@/assets/partners/cracked-labs-white.png";
 
 const Partners = () => {
   const partners = [
@@ -57,7 +57,7 @@ const Partners = () => {
             <img
               src={partner.logo}
               alt={`${partner.name} logo`}
-              className="h-12 md:h-16 w-auto object-contain filter brightness-0 invert group-hover:brightness-100 group-hover:invert-0 transition-all duration-300"
+              className="h-12 md:h-16 w-auto object-contain opacity-70 group-hover:opacity-100 transition-all duration-300"
             />
           </a>
         ))}
