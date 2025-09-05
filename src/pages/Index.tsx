@@ -13,8 +13,8 @@ const Index = () => {
       color: "bg-tge-blue"
     },
     {
-      title: "Colombia Acceleration Program",
-      description: "Pre-TGE acceleration for Colombian scaleups and SMEs in Web3 and Industry 4.0. Colombia serves as our strategic starting point for regional expansion.",
+      title: "TGE Acceleration Program",
+      description: "Pre-TGE acceleration for Latinamerican scaleups and SMEs in Web3 and Industry 4.0. Strategic starting point for regional expansion.",
       color: "bg-edtech-yellow"
     },
     {
