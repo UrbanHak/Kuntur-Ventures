@@ -81,7 +81,7 @@ const Index = () => {
                 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 text-left">
                   <InvestmentVertical
-                    title="Education, Financial Inclusion, Economic Stability and Decentralized Finance"
+                    title="Education, Financial Inclusion and Decentralized Finance"
                     description="Empowering financial access and educational opportunities through decentralized technologies and innovative economic models."
                     color="bg-tge-blue"
                     index={0}
