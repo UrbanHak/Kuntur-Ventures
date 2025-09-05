@@ -1,6 +1,7 @@
 import { useState } from "react";
 import InvestmentVertical from "@/components/InvestmentVertical";
 import SignupForm from "@/components/SignupForm";
+import Partners from "@/components/Partners";
 import { Button } from "@/components/ui/button";
 
 const Index = () => {
@@ -114,7 +115,7 @@ const Index = () => {
               </div>
 
               {/* Call to Action */}
-              <div className="text-center">
+              <div className="text-center mb-16">
                 <Button 
                   onClick={() => setShowForm(true)}
                   size="lg"
@@ -126,6 +127,9 @@ const Index = () => {
                   Join Condor Ventures' initiative for Latinamerica, Andean and Caribbean tech ecosystems growth
                 </p>
               </div>
+
+              {/* Partners Section */}
+              <Partners />
             </main>
           </>
         ) : (
