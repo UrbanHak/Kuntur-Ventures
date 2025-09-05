@@ -148,7 +148,7 @@ const Index = () => {
         {/* Footer */}
         <footer className="text-center pt-16 border-t border-border">
           <p className="text-sm text-muted-foreground">
-            Condor Ventures Initiative © 2024
+            Condor Ventures Initiative @2025
           </p>
         </footer>
       </div>
