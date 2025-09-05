@@ -62,11 +62,13 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				},
-				// Investment vertical colors
+				// Focus area colors
 				'tge-blue': 'hsl(var(--tge-blue))',
 				'edtech-yellow': 'hsl(var(--edtech-yellow))',
 				'refi-green': 'hsl(var(--refi-green))',
-				'defi-red': 'hsl(var(--defi-red))'
+				'culture-purple': 'hsl(var(--culture-purple))',
+				'industry-red': 'hsl(var(--industry-red))',
+				'telecom-yellow': 'hsl(var(--telecom-yellow))'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',

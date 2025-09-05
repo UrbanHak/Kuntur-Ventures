@@ -69,6 +69,52 @@ const Index = () => {
                 ))}
               </div>
 
+              {/* Focus Areas */}
+              <div className="mb-16">
+                <div className="text-center mb-12">
+                  <h2 className="text-3xl md:text-4xl font-light text-foreground mb-4 tracking-tight">
+                    Focus Areas
+                  </h2>
+                  <div className="h-px bg-gradient-to-r from-transparent via-muted-foreground to-transparent w-24 mx-auto mb-6"></div>
+                  <p className="text-muted-foreground max-w-xl mx-auto leading-relaxed">
+                    Strategic investment verticals driving Web3 innovation across LATAM & Caribbean
+                  </p>
+                </div>
+                
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 text-left">
+                  <InvestmentVertical
+                    title="Education, Financial Inclusion, Economic Stability and Decentralized Finance"
+                    description="Empowering financial access and educational opportunities through decentralized technologies and innovative economic models."
+                    color="bg-tge-blue"
+                    index={0}
+                  />
+                  <InvestmentVertical
+                    title="Regenerative Economies and Environmental Sustainability"
+                    description="Supporting environmental restoration and sustainable development through blockchain-based regenerative finance solutions."
+                    color="bg-refi-green"
+                    index={1}
+                  />
+                  <InvestmentVertical
+                    title="Art, Culture and Creators Economy"
+                    description="Fostering creative expression and cultural preservation through NFTs, DAOs, and creator-focused blockchain platforms."
+                    color="bg-culture-purple"
+                    index={2}
+                  />
+                  <InvestmentVertical
+                    title="Industry 4.0 Innovations For Public Goods"
+                    description="Advancing manufacturing, IoT, and industrial automation technologies that serve the public interest and community benefit."
+                    color="bg-industry-red"
+                    index={3}
+                  />
+                  <InvestmentVertical
+                    title="Decentralized Telecommunications and Aerospace"
+                    description="Building decentralized communication networks and aerospace innovations that enhance connectivity across the region."
+                    color="bg-telecom-yellow"
+                    index={4}
+                  />
+                </div>
+              </div>
+
               {/* Call to Action */}
               <div className="text-center">
                 <Button 
