@@ -9,7 +9,7 @@ const Index = () => {
   const objectives = [
     {
       title: "Sign the Pledge",
-      description: "Join our one-page commitment document for the public good of Latinamerica and the Caribbean. Support the foundational movement building toward Web3 ecosystem growth.",
+      description: "Join our one-page commitment document for the public good of Latinamerica, Andean and Caribbean regions. Support the foundational movement building toward Web3 ecosystem growth.",
       color: "bg-tge-blue"
     },
     {
@@ -19,7 +19,7 @@ const Index = () => {
     },
     {
       title: "Ecosystem Mapping & Tracking",
-      description: "Comprehensive mapping of startups, incubators, and accelerators across LATAM. Building intelligence to track and achieve our $1B investment goal.",
+      description: "Comprehensive mapping of startups, incubators, and accelerators across Latinamerica, Andean and Caribbean regions. Building intelligence to track and achieve our $1B investment goal.",
       color: "bg-refi-green"
     }
   ];
@@ -29,9 +29,6 @@ const Index = () => {
       <div className="container mx-auto px-6 py-12">
         {/* Header */}
         <header className="text-center mb-16">
-          <div className="mb-8">
-            <h2 className="text-lg font-light tracking-[0.3em] text-muted-foreground">CONDOR VENTURES</h2>
-          </div>
         </header>
 
         {!showForm ? (
@@ -50,7 +47,7 @@ const Index = () => {
                 <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed font-light tracking-wide">
                   <span className="text-foreground font-normal">BUILDING THE FOUNDATION FOR</span>
                   <br />
-                  <span className="text-foreground font-normal">LATAM & CARIBBEAN WEB3 ECOSYSTEM</span>
+                  <span className="text-foreground font-normal">LATINAMERICA, ANDEAN AND CARIBBEAN TECH ECOSYSTEMS</span>
                   <br />
                   <span className="text-sm md:text-base tracking-[0.2em] mt-2 block">PHASE 1: FOUNDATION & ACCELERATION</span>
                 </p>
@@ -77,7 +74,7 @@ const Index = () => {
                   </h2>
                   <div className="h-px bg-gradient-to-r from-transparent via-muted-foreground to-transparent w-24 mx-auto mb-6"></div>
                   <p className="text-muted-foreground max-w-xl mx-auto leading-relaxed">
-                    Strategic investment verticals driving Web3 innovation across LATAM & Caribbean
+                    Strategic investment verticals driving Web3 innovation across Latinamerica, Andean and Caribbean tech ecosystems
                   </p>
                 </div>
                 
@@ -125,7 +122,7 @@ const Index = () => {
                   One Click Pledge
                 </Button>
                 <p className="text-sm text-muted-foreground mt-4">
-                  Join the foundational movement for LATAM & Caribbean Web3 growth
+                  Join the foundational movement for Latinamerica, Andean and Caribbean tech ecosystems growth
                 </p>
               </div>
             </main>
@@ -151,7 +148,7 @@ const Index = () => {
         {/* Footer */}
         <footer className="text-center pt-16 border-t border-border">
           <p className="text-sm text-muted-foreground">
-            Condor Ventures - Phase 1 Foundation Initiative © 2024
+            Phase 1 Foundation Initiative © 2024
           </p>
         </footer>
       </div>
