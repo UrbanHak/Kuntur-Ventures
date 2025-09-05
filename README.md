@@ -1,5 +1,17 @@
 # Welcome to Condor Ventures
 
+ACCELERATING
+LATINAMERICA, ANDEAN AND CARIBBEAN TECH ECOSYSTEMS
+PRESENTED BY CONDOR VENTURES
+
+Join our one-page commitment document for the public good of Latinamerica, Andean and Caribbean regions. Support Condor Ventures movement building towards Web3 and Industry 4.0 ecosystem growth.
+
+TGE Acceleration Program
+TGE Acceleration program located in Colombia for latinamerican scaleups ready to launch their tokens and scale across the region with strategic partnerships and institutional backing.
+
+Ecosystem Mapping & Tracking
+Comprehensive mapping of startups, support systems, incubators, accelerators as well as Venture Capital investment across Latinamerica, Andean and Caribbean region to identify opportunities and track progress toward our $1B commitment goal.
+
 ## Project info
 
 **URL**: https://preview--condorventures.lovable.app/
@@ -7,7 +19,7 @@
 
 **Use your preferred IDE**
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+If you want to work locally using your own IDE, you can clone this repo and push changes.
 
 The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
