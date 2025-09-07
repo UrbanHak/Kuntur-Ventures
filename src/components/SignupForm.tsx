@@ -31,7 +31,7 @@ const SignupForm = () => {
     
     toast({
       title: "Pledge Commitment Confirmed",
-      description: "Thank you for your commitment to accelerating Latinamerica, Andean and Caribbean tech ecosystems. You are now part of the Condor Ventures $1B initiative.",
+      description: "Thank you for your commitment to accelerating Latinamerica, Andean and Caribbean tech ecosystems. You are now part of the Kuntur Ventures $1B initiative.",
     });
     
     setIsSubmitting(false);
@@ -46,7 +46,7 @@ const SignupForm = () => {
             $1B Commitment Pledge
           </CardTitle>
           <CardDescription className="text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            A formal commitment to accelerating Latinamerica, Andean and Caribbean tech ecosystems through Condor Ventures' strategic initiative
+            A formal commitment to accelerating Latinamerica, Andean and Caribbean tech ecosystems through Kuntur Ventures' strategic initiative
           </CardDescription>
         </CardHeader>
       </Card>
@@ -63,11 +63,11 @@ const SignupForm = () => {
               <li>Supporting the growth and development of Web3 and Industry 4.0 technologies across Latinamerica, Andean and Caribbean regions</li>
               <li>Contributing to the ecosystem mapping and intelligence gathering efforts to achieve the $1B investment goal</li>
               <li>Advocating for public good initiatives that benefit regional tech ecosystems</li>
-              <li>Participating in knowledge sharing and collaboration within the Condor Ventures network</li>
+              <li>Participating in knowledge sharing and collaboration within the Kuntur Ventures network</li>
               <li>Promoting sustainable and regenerative economic models in technology development</li>
             </ul>
             <p className="mt-4 text-sm">
-              This pledge represents a serious commitment to regional tech ecosystem development and will be publicly recognized as part of the Condor Ventures initiative.
+              This pledge represents a serious commitment to regional tech ecosystem development and will be publicly recognized as part of the Kuntur Ventures initiative.
             </p>
           </div>
         </CardContent>
@@ -138,7 +138,7 @@ const SignupForm = () => {
                     I formally agree to the commitment terms outlined above *
                   </Label>
                   <p className="text-xs text-muted-foreground">
-                    By checking this box, I understand this is a serious commitment to supporting Latinamerica, Andean and Caribbean tech ecosystems through the Condor Ventures $1B initiative.
+                    By checking this box, I understand this is a serious commitment to supporting Latinamerica, Andean and Caribbean tech ecosystems through the Kuntur Ventures $1B initiative.
                   </p>
                 </div>
               </div>

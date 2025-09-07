@@ -10,7 +10,7 @@ const Index = () => {
   const objectives = [
     {
       title: "Sign the Pledge",
-      description: "Join our one-page commitment document for the public good of Latinamerica, Andean and Caribbean regions. Support Condor Ventures movement building towards Web3 and Industry 4.0 ecosystem growth.",
+      description: "Join our one-page commitment document for the public good of Latinamerica, Andean and Caribbean regions. Support Kuntur Ventures movement building towards Web3 and Industry 4.0 ecosystem growth.",
       color: "bg-tge-blue"
     },
     {
@@ -50,7 +50,7 @@ const Index = () => {
                   <br />
                   <span className="text-foreground font-normal">LATINAMERICA, ANDEAN AND CARIBBEAN TECH ECOSYSTEMS</span>
                   <br />
-                  <span className="text-sm md:text-base tracking-[0.2em] mt-2 block">PRESENTED BY CONDOR VENTURES</span>
+                  <span className="text-sm md:text-base tracking-[0.2em] mt-2 block">PRESENTED BY KUNTUR VENTURES</span>
                 </p>
               </div>
 
@@ -121,7 +121,7 @@ const Index = () => {
                   One Click Pledge
                 </Button>
                 <p className="text-sm text-muted-foreground mt-4">
-                  Join Condor Ventures' initiative for Latinamerica, Andean and Caribbean tech ecosystems growth
+                  Join Kuntur Ventures' initiative for Latinamerica, Andean and Caribbean tech ecosystems growth
                 </p>
               </div>
 
@@ -150,7 +150,7 @@ const Index = () => {
         {/* Footer */}
         <footer className="text-center pt-16 border-t border-border">
           <p className="text-sm text-muted-foreground">
-            Condor Ventures Initiative @2025
+            Kuntur Ventures Initiative @2025
           </p>
         </footer>
       </div>

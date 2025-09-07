@@ -1,10 +1,10 @@
-# Welcome to Condor Ventures
+# Welcome to Kuntur Ventures
 
 ACCELERATING
 LATINAMERICA, ANDEAN AND CARIBBEAN TECH ECOSYSTEMS
-PRESENTED BY CONDOR VENTURES
+PRESENTED BY KUNTUR VENTURES
 
-Join our one-page commitment document for the public good of Latinamerica, Andean and Caribbean regions. Support Condor Ventures movement building towards Web3 and Industry 4.0 ecosystem growth.
+Join our one-page commitment document for the public good of Latinamerica, Andean and Caribbean regions. Support Kuntur Ventures movement building towards Web3 and Industry 4.0 ecosystem growth.
 
 TGE Acceleration Program
 TGE Acceleration program located in Colombia for latinamerican scaleups ready to launch their tokens and scale across the region with strategic partnerships and institutional backing.
@@ -14,7 +14,7 @@ Comprehensive mapping of startups, support systems, incubators, accelerators as 
 
 ## Project info
 
-**URL**: https://preview--condorventures.lovable.app/
+**URL**: https://preview--kunturventures.lovable.app/
 
 
 **Use your preferred IDE**
