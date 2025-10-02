@@ -20,11 +20,11 @@ const Partners = () => {
       
       <div className="grid grid-cols-1 md:grid-cols-3 gap-12 items-center justify-items-center max-w-4xl mx-auto">
         {partners.map((partner, index) => (
-          <div key={index} className="flex items-center justify-center p-6">
+          <div key={index} className="flex items-center justify-center">
             <img
               src={partner.logo}
               alt={partner.alt}
-              className="h-16 w-auto object-contain opacity-80 hover:opacity-100 transition-opacity duration-300"
+              className="h-32 w-32 object-cover rounded-full opacity-90 hover:opacity-100 transition-opacity duration-300"
             />
           </div>
         ))}
