@@ -1,7 +1,7 @@
 import ldaCapitalLogo from "@/assets/partners/lda-capital-logo.png";
 import kpmgLogo from "@/assets/partners/kpmg-logo.png";
 import ftcLogo from "@/assets/partners/ftc-logo.avif";
-import rayoLogo from "@/assets/partners/rayo-logo.png";
+import rayoLogo from "@/assets/partners/rayo-logo.jpg";
 import bitbaselLogo from "@/assets/partners/bitbasel-logo.jpg";
 import refidaoLogo from "@/assets/partners/refidao-logo.png";
 
