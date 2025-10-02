@@ -108,6 +108,12 @@ const Index = () => {
                     color="bg-telecom-yellow"
                     index={4}
                   />
+                  <InvestmentVertical
+                    title="Human Capital"
+                    description="A network of mentors, executives and investors looking to positively impact the quality of life for 8 billion people around the world by addressing challenges directly into Latinamerica's talent and biodiversity."
+                    color="bg-edtech-yellow"
+                    index={5}
+                  />
                 </div>
               </div>
 
