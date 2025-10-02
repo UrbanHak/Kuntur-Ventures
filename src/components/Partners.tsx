@@ -54,9 +54,16 @@ const Partners = () => {
         <div className="h-px bg-gradient-to-r from-transparent via-muted-foreground to-transparent w-20 mx-auto mb-6"></div>
       </div>
       
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-12 items-center justify-items-center max-w-4xl mx-auto">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-12 items-center max-w-4xl mx-auto">
         {partners.map((partner, index) => (
-          <div key={index} className="flex items-center justify-center">
+          <div 
+            key={index} 
+            className={`flex items-center justify-center ${
+              index === partners.length - 1 && partners.length % 3 !== 0 
+                ? 'md:col-start-2' 
+                : ''
+            }`}
+          >
             <img
               src={partner.logo}
               alt={partner.alt}
