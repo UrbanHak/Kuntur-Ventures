@@ -1,6 +1,12 @@
+import ldaCapitalLogo from "@/assets/partners/lda-capital-logo.png";
+
 const Partners = () => {
-  const partners: any[] = [
-    // Partner logos will be added here
+  const partners = [
+    {
+      name: "LDA Capital",
+      logo: ldaCapitalLogo,
+      alt: "LDA Capital logo"
+    }
   ];
 
   return (
@@ -13,9 +19,15 @@ const Partners = () => {
       </div>
       
       <div className="grid grid-cols-1 md:grid-cols-3 gap-12 items-center justify-items-center max-w-4xl mx-auto">
-        <div className="col-span-full text-center text-muted-foreground">
-          Partner logos will be added here
-        </div>
+        {partners.map((partner, index) => (
+          <div key={index} className="flex items-center justify-center p-6">
+            <img
+              src={partner.logo}
+              alt={partner.alt}
+              className="h-16 w-auto object-contain opacity-80 hover:opacity-100 transition-opacity duration-300"
+            />
+          </div>
+        ))}
       </div>
     </div>
   );
