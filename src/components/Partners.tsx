@@ -1,4 +1,5 @@
 import ldaCapitalLogo from "@/assets/partners/lda-capital-logo.png";
+import kpmgLogo from "@/assets/partners/kpmg-logo.png";
 
 const Partners = () => {
   const partners = [
@@ -6,6 +7,11 @@ const Partners = () => {
       name: "LDA Capital",
       logo: ldaCapitalLogo,
       alt: "LDA Capital logo"
+    },
+    {
+      name: "KPMG",
+      logo: kpmgLogo,
+      alt: "KPMG logo"
     }
   ];
 
