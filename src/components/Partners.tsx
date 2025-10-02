@@ -56,7 +56,7 @@ const Partners = () => {
               alt={partner.alt}
               className={`h-40 w-40 object-contain rounded-full opacity-90 hover:opacity-100 transition-opacity duration-300 p-4 ${
                 partner.name === "Rayo" 
-                  ? "bg-white invert" 
+                  ? "bg-black brightness-0 invert" 
                   : "bg-gradient-to-br from-muted/20 to-muted/10"
               }`}
             />
