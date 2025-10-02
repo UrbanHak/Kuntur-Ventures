@@ -26,8 +26,15 @@ const Index = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-background to-background/95">
-      <div className="container mx-auto px-6 py-12">
+    <div className="min-h-screen bg-gradient-to-b from-background to-background/95 relative">
+      {/* DRAFT Watermark */}
+      <div className="fixed inset-0 flex items-center justify-center pointer-events-none z-50 overflow-hidden">
+        <div className="text-[20vw] font-bold text-muted-foreground/10 rotate-[-45deg] select-none tracking-widest">
+          DRAFT
+        </div>
+      </div>
+      
+      <div className="container mx-auto px-6 py-12 relative z-10">
         {/* Header */}
         <header className="text-center mb-16">
         </header>
@@ -50,7 +57,7 @@ const Index = () => {
                   <br />
                   <span className="text-foreground font-normal">LATINAMERICA, ANDEAN AND CARIBBEAN TECH ECOSYSTEMS</span>
                   <br />
-                  <span className="text-sm md:text-base tracking-[0.2em] mt-2 block">PRESENTED BY KUNTUR VENTURES</span>
+                  <span className="text-sm md:text-base tracking-[0.2em] mt-2 block">PRESENTED BY JORGE CORTES</span>
                 </p>
               </div>
 
@@ -157,7 +164,7 @@ const Index = () => {
         {/* Footer */}
         <footer className="text-center pt-16 border-t border-border">
           <p className="text-sm text-muted-foreground">
-            Kuntur Ventures Initiative @2025
+            Presented by Jorge Cortes | Kuntur Ventures Initiative @2025
           </p>
         </footer>
       </div>

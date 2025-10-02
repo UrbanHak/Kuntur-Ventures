@@ -46,7 +46,7 @@ const SignupForm = () => {
             $1B Commitment Pledge
           </CardTitle>
           <CardDescription className="text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            A formal commitment to accelerating Latinamerica, Andean and Caribbean tech ecosystems through Kuntur Ventures' strategic initiative
+            A formal commitment to accelerating Latinamerica, Andean and Caribbean tech ecosystems presented by Jorge Cortes
           </CardDescription>
         </CardHeader>
       </Card>
@@ -65,6 +65,7 @@ const SignupForm = () => {
               <li>Advocating for public good initiatives that benefit regional tech ecosystems</li>
               <li>Participating in knowledge sharing and collaboration within the Kuntur Ventures network</li>
               <li>Promoting sustainable and regenerative economic models in technology development</li>
+              <li>Fostering Human Capital development by empowering a network of mentors, executives, and investors dedicated to positively impacting the quality of life for communities worldwide, while directly addressing challenges and opportunities within Latinamerica's exceptional talent pool and rich biodiversity</li>
             </ul>
             <p className="mt-4 text-sm">
               This pledge represents a serious commitment to regional tech ecosystem development and will be publicly recognized as part of the Kuntur Ventures initiative.
@@ -138,7 +139,7 @@ const SignupForm = () => {
                     I formally agree to the commitment terms outlined above *
                   </Label>
                   <p className="text-xs text-muted-foreground">
-                    By checking this box, I understand this is a serious commitment to supporting Latinamerica, Andean and Caribbean tech ecosystems through the Kuntur Ventures $1B initiative.
+                    By checking this box, I understand this is a serious commitment to supporting Latinamerica, Andean and Caribbean tech ecosystems presented by Jorge Cortes.
                   </p>
                 </div>
               </div>
