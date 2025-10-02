@@ -113,6 +113,7 @@ const Index = () => {
                     description="A network of mentors, executives and investors looking to positively impact the quality of life for 8 billion people around the world by addressing challenges directly into Latinamerica's talent and its biodiversity."
                     color="bg-edtech-yellow"
                     index={5}
+                    useWhiteLine={true}
                   />
                 </div>
               </div>
