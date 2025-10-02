@@ -1,5 +1,6 @@
 import ldaCapitalLogo from "@/assets/partners/lda-capital-logo.png";
 import kpmgLogo from "@/assets/partners/kpmg-logo.png";
+import ftcLogo from "@/assets/partners/ftc-logo.avif";
 
 const Partners = () => {
   const partners = [
@@ -12,6 +13,11 @@ const Partners = () => {
       name: "KPMG",
       logo: kpmgLogo,
       alt: "KPMG logo"
+    },
+    {
+      name: "FTC",
+      logo: ftcLogo,
+      alt: "FTC logo"
     }
   ];
 
