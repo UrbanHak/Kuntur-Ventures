@@ -10,7 +10,7 @@ const Index = () => {
   const objectives = [
     {
       title: "Sign the Pledge",
-      description: "Join our one-page commitment document for the public good of Latinamerica, Andean and Caribbean regions. Support Kuntur Ventures movement building towards Web3 and Industry 4.0 ecosystem growth.",
+      description: "Join our one-page pledge commitment to invest into Latinamerica, Andean and Caribbean regions. Support the Kuntur Initiative and its momentum to empower Latinamerica's talent pool and resources from the Web3 and Industry 4.0 sectors.",
       color: "bg-tge-blue"
     },
     {
@@ -88,41 +88,41 @@ const Index = () => {
                 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 text-left">
                   <InvestmentVertical
+                    title="Human Capital"
+                    description="A network of mentors, executives and investors looking to positively impact the quality of life for 8 billion people around the world by addressing challenges directly into Latinamerica's talent and its biodiversity."
+                    color="bg-edtech-yellow"
+                    index={0}
+                    useWhiteLine={true}
+                  />
+                  <InvestmentVertical
                     title="Education, Financial Inclusion and Decentralized Finance"
                     description="Empowering financial access and educational opportunities through decentralized technologies and innovative economic models."
                     color="bg-tge-blue"
-                    index={0}
+                    index={1}
                   />
                   <InvestmentVertical
                     title="Regenerative Economies and Environmental Sustainability"
                     description="Supporting environmental restoration and sustainable development through blockchain-based regenerative finance solutions."
                     color="bg-refi-green"
-                    index={1}
+                    index={2}
                   />
                   <InvestmentVertical
                     title="Art, Culture and Creators Economy"
                     description="Fostering creative expression and cultural preservation through NFTs, DAOs, and creator-focused blockchain platforms."
                     color="bg-culture-purple"
-                    index={2}
+                    index={3}
                   />
                   <InvestmentVertical
                     title="Industry 4.0 Innovations For Public Goods"
                     description="Advancing manufacturing, IoT, and industrial automation technologies that serve the public interest and community benefit."
                     color="bg-industry-red"
-                    index={3}
+                    index={4}
                   />
                   <InvestmentVertical
                     title="Decentralized Telecommunications and Aerospace"
                     description="Building decentralized communication networks and aerospace innovations that enhance connectivity across the region."
                     color="bg-telecom-yellow"
-                    index={4}
-                  />
-                  <InvestmentVertical
-                    title="Human Capital"
-                    description="A network of mentors, executives and investors looking to positively impact the quality of life for 8 billion people around the world by addressing challenges directly into Latinamerica's talent and its biodiversity."
-                    color="bg-edtech-yellow"
                     index={5}
-                    useWhiteLine={true}
                   />
                 </div>
               </div>
