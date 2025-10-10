@@ -31,7 +31,7 @@ const SignupForm = () => {
     
     toast({
       title: "Pledge Commitment Confirmed",
-      description: "Thank you for your commitment to accelerating Latinamerica, Andean and Caribbean tech ecosystems. You are now part of the Kuntur Ventures $1B initiative.",
+      description: "Thank you for your commitment to accelerating Latinamerica, Andean and Caribbean tech ecosystems. You are now part of the LDA Capital Initiative $1B.",
     });
     
     setIsSubmitting(false);
@@ -63,12 +63,12 @@ const SignupForm = () => {
               <li>Supporting the growth and development of Web3 and Industry 4.0 technologies across Latinamerica, Andean and Caribbean regions</li>
               <li>Contributing to the ecosystem mapping and intelligence gathering efforts to achieve the $1B investment goal</li>
               <li>Advocating for public good initiatives that benefit regional tech ecosystems</li>
-              <li>Participating in knowledge sharing and collaboration within the Kuntur Ventures network</li>
+              <li>Participating in knowledge sharing and collaboration within the LDA Capital Initiative network</li>
               <li>Promoting sustainable and regenerative economic models in technology development</li>
               <li>Fostering Human Capital development by empowering a network of mentors, executives, and investors dedicated to positively impacting the quality of life for communities worldwide, while directly addressing challenges and opportunities within Latinamerica's exceptional talent pool and rich biodiversity</li>
             </ul>
             <p className="mt-4 text-sm">
-              This pledge represents a serious commitment to regional tech ecosystem development and will be publicly recognized as part of the Kuntur Ventures initiative.
+              This pledge represents a serious commitment to regional tech ecosystem development and will be publicly recognized as part of the LDA Capital Initiative.
             </p>
           </div>
         </CardContent>

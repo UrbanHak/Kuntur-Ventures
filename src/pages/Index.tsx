@@ -10,7 +10,7 @@ const Index = () => {
   const objectives = [
     {
       title: "Sign the Pledge",
-      description: "Join our one-page pledge commitment to invest up to $1 Billion USD into Latinamerica, Andean and Caribbean regions over the next 5 years. Support the Kuntur Initiative to empower Latinamerica's talent pool and resources from the Web3 and Industry 4.0 sectors.",
+      description: "Join our one-page pledge commitment to invest up to $1 Billion USD into Latinamerica, Andean and Caribbean regions over the next 5 years. Support the LDA Capital Initiative to empower Latinamerica's talent pool and resources from the Web3 and Industry 4.0 sectors.",
       color: "bg-tge-blue"
     },
     {
@@ -137,7 +137,7 @@ const Index = () => {
                   One Click Pledge
                 </Button>
                 <p className="text-sm text-muted-foreground mt-4">
-                  Join Kuntur Ventures' initiative for Latinamerica, Andean and Caribbean tech ecosystems growth
+                  Join LDA Capital Initiative for Latinamerica, Andean and Caribbean tech ecosystems growth
                 </p>
               </div>
 
@@ -166,7 +166,7 @@ const Index = () => {
         {/* Footer */}
         <footer className="text-center pt-16 border-t border-border">
           <p className="text-sm text-muted-foreground">
-            Presented by Jorge Cortes | Kuntur Ventures Initiative @2025
+            Presented by Jorge Cortes | LDA Capital Initiative @2025
           </p>
         </footer>
       </div>

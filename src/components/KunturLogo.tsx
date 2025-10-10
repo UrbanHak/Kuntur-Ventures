@@ -43,7 +43,7 @@ const KunturLogo = ({ className = "" }: KunturLogoProps) => {
           strokeLinecap="round"
         />
       </svg>
-      <span className="text-3xl font-light tracking-[0.2em] text-foreground">KUNTUR</span>
+      <span className="text-3xl font-light tracking-[0.2em] text-foreground">LDA CAPITAL</span>
     </div>
   );
 };
