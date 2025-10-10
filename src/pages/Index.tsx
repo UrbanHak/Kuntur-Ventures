@@ -113,7 +113,7 @@ const Index = () => {
                     index={3}
                   />
                   <InvestmentVertical
-                    title="Industry 4.0 Innovations For Public Goods"
+                    title="Industry 4.0 & Decentralized Science for Public Goods"
                     description="Advancing manufacturing, IoT, and industrial automation technologies that serve the public interest and community benefit."
                     color="bg-industry-red"
                     index={4}
