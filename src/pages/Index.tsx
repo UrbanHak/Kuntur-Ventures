@@ -45,7 +45,7 @@ const Index = () => {
             <main className="max-w-5xl mx-auto text-center mb-16">
               <div className="mb-12">
                 <h1 className="text-5xl md:text-8xl font-light text-foreground mb-6 tracking-tight leading-none">
-                  <span className="text-6xl md:text-9xl font-bold tracking-wider">~ 270 ETH</span>
+                  <span className="text-6xl md:text-9xl font-bold tracking-wider">~ 265.000 ETH</span>
                   <br />
                   <span className="text-sm md:text-lg font-light tracking-wide text-muted-foreground">$1.000.000.000 USD</span>
                   <br />
