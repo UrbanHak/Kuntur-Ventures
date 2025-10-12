@@ -4,7 +4,6 @@ import ftcLogo from "@/assets/partners/ftc-logo.avif";
 import rayoLogo from "@/assets/partners/rayo-logo.jpg";
 import bitbaselLogo from "@/assets/partners/bitbasel-logo.jpg";
 import refidaoLogo from "@/assets/partners/refidao-logo.png";
-import ethereumAllianceLogo from "@/assets/partners/ethereum-alliance-logo.jpg";
 
 const Partners = () => {
   const partners = [
@@ -37,11 +36,6 @@ const Partners = () => {
       name: "ReFi DAO",
       logo: refidaoLogo,
       alt: "ReFi DAO logo"
-    },
-    {
-      name: "Enterprise Ethereum Alliance",
-      logo: ethereumAllianceLogo,
-      alt: "Enterprise Ethereum Alliance logo"
     }
   ];
 
