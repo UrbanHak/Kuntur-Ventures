@@ -44,12 +44,10 @@ const Index = () => {
             {/* Main Content */}
             <main className="max-w-5xl mx-auto text-center mb-16">
               <div className="mb-12">
-                <h1 className="text-5xl md:text-8xl font-light text-foreground mb-6 tracking-tight leading-none">
-                  <span className="text-6xl md:text-9xl font-bold tracking-wider">~ 265.000 ETH</span>
+                <h1 className="text-4xl md:text-6xl font-light text-foreground mb-6 tracking-tight leading-relaxed">
+                  <span className="text-5xl md:text-7xl font-semibold tracking-wide">$1 B USD</span>
                   <br />
-                  <span className="text-sm md:text-lg font-light tracking-wide text-muted-foreground">$1.000.000.000 USD</span>
-                  <br />
-                  <span className="text-4xl md:text-6xl font-extralight tracking-[0.15em]">COMMITMENT</span>
+                  <span className="text-3xl md:text-5xl font-light tracking-wide">Pledge Commitment</span>
                 </h1>
                 
                 <div className="h-px bg-gradient-to-r from-transparent via-muted-foreground to-transparent w-32 mx-auto mb-8"></div>
