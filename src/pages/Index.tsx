@@ -45,9 +45,9 @@ const Index = () => {
             <main className="max-w-5xl mx-auto text-center mb-16">
               <div className="mb-12">
                 <h1 className="text-4xl md:text-6xl font-light text-foreground mb-6 tracking-tight leading-relaxed">
-                  <span className="text-5xl md:text-7xl font-semibold tracking-wide">$1 B USD</span>
+                  <span className="text-5xl md:text-7xl font-semibold tracking-wide">$1 Billion USD</span>
                   <br />
-                  <span className="text-3xl md:text-5xl font-light tracking-wide">Pledge Commitment</span>
+                  <span className="text-3xl md:text-5xl font-light tracking-wide">Investment Initiative</span>
                 </h1>
                 
                 <div className="h-px bg-gradient-to-r from-transparent via-muted-foreground to-transparent w-32 mx-auto mb-8"></div>
