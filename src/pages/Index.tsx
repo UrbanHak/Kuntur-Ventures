@@ -94,7 +94,7 @@ const Index = () => {
                   />
                   <InvestmentVertical
                     title="Education, Financial Inclusion and Decentralized Finance"
-                    description="Empowering financial access and educational opportunities through decentralized technologies and innovative economic models."
+                    description="Empowering financial literacy, access and educational opportunities for decentralized finance, financial technologies and tokenomics."
                     color="bg-tge-blue"
                     index={1}
                   />
