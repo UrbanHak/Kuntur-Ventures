@@ -204,7 +204,7 @@ const Index = () => {
                   One Click Pledge
                 </Button>
                 <p className="text-sm text-muted-foreground mt-4">
-                  Join LDA Capital Initiative for Latinamerica tech ecosystems growth
+                  Join LDA Capital Initiative for the growth of Latinamerica Web3 and Industry 4.0 ecosystems.
                 </p>
               </div>
 
