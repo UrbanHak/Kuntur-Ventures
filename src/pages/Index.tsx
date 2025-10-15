@@ -163,8 +163,8 @@ const Index = () => {
                       <div className="flex items-start gap-4">
                         <div className="w-1 h-12 bg-primary flex-shrink-0"></div>
                         <div>
-                          <p className="text-foreground font-normal mb-1">First Cohort</p>
-                          <p className="text-muted-foreground text-sm">5 Companies across Education, Regeneration, Creator's Economy, Public Goods, and Space Economy</p>
+                          <p className="text-foreground font-normal mb-1">First Cohort & Investment</p>
+                          <p className="text-muted-foreground text-sm">5 Companies across Education, Regeneration, Creator's Economy, Public Goods, and Space Economy. Each company receives $20,000 USD investment.</p>
                         </div>
                       </div>
                     </div>
