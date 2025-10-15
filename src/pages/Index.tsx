@@ -135,10 +135,17 @@ const Index = () => {
                 </div>
                 
                 {/* Program Details */}
-                <div className="max-w-3xl mx-auto mb-12 text-center">
-                  <div className="bg-card/50 backdrop-blur-sm border border-border rounded-lg p-8 mb-8">
-                    <h3 className="text-2xl font-light text-foreground mb-6">Program Overview</h3>
+                <div className="max-w-3xl mx-auto mb-12">
+                  <div className="bg-card/50 backdrop-blur-sm border border-border rounded-lg p-8">
+                    <h3 className="text-2xl font-light text-foreground mb-6 text-center">Program Overview</h3>
                     <div className="space-y-4 text-left">
+                      <div className="flex items-start gap-4">
+                        <div className="w-1 h-12 bg-primary flex-shrink-0"></div>
+                        <div>
+                          <p className="text-foreground font-normal mb-1">Program Start</p>
+                          <p className="text-muted-foreground text-sm">Q1 2026</p>
+                        </div>
+                      </div>
                       <div className="flex items-start gap-4">
                         <div className="w-1 h-12 bg-primary flex-shrink-0"></div>
                         <div>
@@ -153,46 +160,14 @@ const Index = () => {
                           <p className="text-muted-foreground text-sm">Capital Markets, DeFi, RWA & Digital Asset Management, Tokenomics, Growth Strategies and TGE</p>
                         </div>
                       </div>
+                      <div className="flex items-start gap-4">
+                        <div className="w-1 h-12 bg-primary flex-shrink-0"></div>
+                        <div>
+                          <p className="text-foreground font-normal mb-1">First Cohort</p>
+                          <p className="text-muted-foreground text-sm">5 Companies across Education, Regeneration, Art, Public Goods, and Space Economy</p>
+                        </div>
+                      </div>
                     </div>
-                  </div>
-                  
-                  {/* First Cohort */}
-                  <div className="text-center mb-8">
-                    <h3 className="text-2xl font-light text-foreground mb-6">First Cohort</h3>
-                    <p className="text-muted-foreground mb-8">5 Companies Across Key Sectors</p>
-                  </div>
-                  
-                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 text-left">
-                    <InvestmentVertical
-                      title="Education"
-                      description="Transforming learning through innovative educational technologies and decentralized platforms."
-                      color="bg-edtech-yellow"
-                      index={0}
-                    />
-                    <InvestmentVertical
-                      title="Regeneration"
-                      description="Building sustainable solutions for environmental restoration and regenerative economies."
-                      color="bg-refi-green"
-                      index={1}
-                    />
-                    <InvestmentVertical
-                      title="Art"
-                      description="Empowering creators and preserving culture through blockchain-based art platforms."
-                      color="bg-culture-purple"
-                      index={2}
-                    />
-                    <InvestmentVertical
-                      title="Public Goods"
-                      description="Developing decentralized science and technology solutions for public benefit."
-                      color="bg-industry-red"
-                      index={3}
-                    />
-                    <InvestmentVertical
-                      title="Space Economy"
-                      description="Advancing open-source space exploration and decentralized aerospace technologies."
-                      color="bg-telecom-yellow"
-                      index={4}
-                    />
                   </div>
                 </div>
               </div>
