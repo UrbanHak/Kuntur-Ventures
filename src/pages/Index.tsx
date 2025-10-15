@@ -20,7 +20,7 @@ const Index = () => {
     },
     {
       title: "Ecosystem Mapping & Tracking",
-      description: "Comprehensive mapping of the Latam ecosystem, support systems, incubators, accelerators as well tracking Venture Capital investments across the region. Identifying progress towards our $1 Billion USD commitment goal.",
+      description: "Comprehensive mapping of the ecosystem at large. Identifying support systems, incubators, accelerators as well tracking Venture Capital and investment towards our $1 Billion USD commitment goal.",
       color: "bg-refi-green"
     }
   ];
