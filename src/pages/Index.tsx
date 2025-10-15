@@ -138,6 +138,9 @@ const Index = () => {
                 <div className="max-w-3xl mx-auto mb-12">
                   <div className="bg-card/50 backdrop-blur-sm border border-border rounded-lg p-8">
                     <h3 className="text-2xl font-light text-foreground mb-6 text-center">Program Overview</h3>
+                    <p className="text-muted-foreground text-sm mb-8 text-center italic">
+                      "Kuntur" means condor in Quechua, the native language of the Andean people. We honor Latinamerica's rich culture and biodiversity by choosing this name for our program.
+                    </p>
                     <div className="space-y-4 text-left">
                       <div className="flex items-start gap-4">
                         <div className="w-1 h-12 bg-primary flex-shrink-0"></div>
