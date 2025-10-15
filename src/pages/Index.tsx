@@ -87,7 +87,7 @@ const Index = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 text-left">
                   <InvestmentVertical
                     title="Human Capital"
-                    description="A network of mentors, executives and investors looking to positively impact the quality of life for 8 billion people around the world by addressing challenges directly into Latinamerica's talent and its biodiversity."
+                    description="A network of mentors, executives and investors looking to positively impact the quality of life for 8 billion people around the world by addressing challenges directly into Latinamerica's talent pool and bio-diversity."
                     color="bg-edtech-yellow"
                     index={0}
                     useWhiteLine={true}
