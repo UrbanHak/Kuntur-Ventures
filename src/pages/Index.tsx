@@ -112,7 +112,7 @@ const Index = () => {
                   />
                   <InvestmentVertical
                     title="Industry 4.0 & Decentralized Science for Public Goods"
-                    description="AI, Quantum Computing, Advanced Manufacturing, IoT and DePIN For Public Goods. Solving for privacy, inequality, public health and biotechnology."
+                    description="AI, Quantum Computing, Advanced Manufacturing, IoT and DePIN For Public Goods. Solving for privacy, inequality, public health or bio-technology."
                     color="bg-industry-red"
                     index={4}
                   />
