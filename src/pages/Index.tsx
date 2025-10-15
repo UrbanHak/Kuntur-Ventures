@@ -118,7 +118,7 @@ const Index = () => {
                   />
                   <InvestmentVertical
                     title="Decentralized Telecom & Aerospace"
-                    description="Building censorship-resistant systems and decentralized networks of telecommunications. Accelerating open and inclusive space exploration protecting researchers data from third parties or government surveillance."
+                    description="Building censorship-resistant systems and decentralized networks of telecommunications. Accelerating space exploration while protecting researchers data from third parties or government surveillance."
                     color="bg-telecom-yellow"
                     index={5}
                   />
