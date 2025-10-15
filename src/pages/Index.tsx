@@ -93,19 +93,19 @@ const Index = () => {
                     useWhiteLine={true}
                   />
                   <InvestmentVertical
-                    title="Education, Financial Inclusion and Decentralized Finance"
+                    title="Education, Financial Inclusion & Decentralized Finance"
                     description="Empowering financial literacy, access and educational opportunities for decentralized finance, financial technologies, tokenomics and TGE."
                     color="bg-tge-blue"
                     index={1}
                   />
                   <InvestmentVertical
-                    title="Regenerative Economies and Environmental Sustainability"
+                    title="Regenerative Economies & Environmental Sustainability"
                     description="Supporting environmental restoration and sustainable development through blockchain-based regenerative finance solutions. Advocating for Real World Natural Assets."
                     color="bg-refi-green"
                     index={2}
                   />
                   <InvestmentVertical
-                    title="Art, Culture and Creators Economy"
+                    title="Art, Culture & Creators Economy"
                     description="Fostering creative expressions and cultural preservation through Proof of Provenance Protocols. NFTs, DAO formations and creator-focused blockchain platforms."
                     color="bg-culture-purple"
                     index={3}
