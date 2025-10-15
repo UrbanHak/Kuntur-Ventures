@@ -10,7 +10,7 @@ const Index = () => {
   const objectives = [
     {
       title: "Sign the Pledge",
-      description: "Join our pledge commitment to invest up to $1 Billion USD into Latinamerica over the next 5 years. Support the LDA Capital Initiative to empower Latinamerica's talent pool from the Web3 and Industry 4.0 sectors.",
+      description: "Join our commitment to invest up to $1 Billion USD into Latinamerica over the next 5 years. Support the LDA Capital Initiative to empower Latinamerica's talent pool from the Web3 and Industry 4.0 sectors.",
       color: "bg-tge-blue"
     },
     {
