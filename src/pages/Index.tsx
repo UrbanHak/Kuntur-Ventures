@@ -106,7 +106,7 @@ const Index = () => {
                   />
                   <InvestmentVertical
                     title="Art, Culture and Creators Economy"
-                    description="Fostering creative expression and cultural preservation through NFTs, DAOs, and creator-focused blockchain platforms."
+                    description="Fostering creative expressions and cultural preservation through Proof of Provenance Protocols. NFTs, DAO formations and creator-focused blockchain platforms."
                     color="bg-culture-purple"
                     index={3}
                   />
