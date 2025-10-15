@@ -131,9 +131,6 @@ const Index = () => {
                   <h2 className="text-3xl md:text-4xl font-light text-foreground mb-4 tracking-tight">
                     Kuntur Accelerator Program
                   </h2>
-                  <p className="text-xl text-muted-foreground italic mb-4 tracking-wide">
-                    "Cóndor de los Andes"
-                  </p>
                   <div className="h-px bg-gradient-to-r from-transparent via-muted-foreground to-transparent w-24 mx-auto mb-6"></div>
                 </div>
                 
