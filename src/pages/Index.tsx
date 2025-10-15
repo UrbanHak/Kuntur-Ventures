@@ -178,15 +178,15 @@ const Index = () => {
                       <div className="flex items-start gap-4">
                         <div className="w-1 h-12 bg-primary flex-shrink-0"></div>
                         <div>
-                          <p className="text-foreground font-normal mb-1">Mentor Network & Human Capital</p>
-                          <p className="text-muted-foreground text-sm">Access to a network of experienced mentors, company builders, and growth experts aligned with our Human Capital area of focus, providing strategic guidance and hands-on support throughout the program.</p>
+                          <p className="text-foreground font-normal mb-1">First Cohort & Investment</p>
+                          <p className="text-muted-foreground text-sm">5 Companies across Education, Regeneration, Creator's Economy, Public Goods, and Space Economy. Each company receives $20,000 USD investment.</p>
                         </div>
                       </div>
                       <div className="flex items-start gap-4">
                         <div className="w-1 h-12 bg-primary flex-shrink-0"></div>
                         <div>
-                          <p className="text-foreground font-normal mb-1">First Cohort & Investment</p>
-                          <p className="text-muted-foreground text-sm">5 Companies across Education, Regeneration, Creator's Economy, Public Goods, and Space Economy. Each company receives $20,000 USD investment.</p>
+                          <p className="text-foreground font-normal mb-1">Mentor Network & Human Capital</p>
+                          <p className="text-muted-foreground text-sm">Access to a network of experienced mentors, company builders, and growth experts aligned with our Human Capital area of focus, providing strategic guidance and hands-on support throughout the program.</p>
                         </div>
                       </div>
                     </div>
