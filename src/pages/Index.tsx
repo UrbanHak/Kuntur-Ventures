@@ -10,7 +10,7 @@ const Index = () => {
   const objectives = [
     {
       title: "Sign the Pledge",
-      description: "Join our one-page pledge commitment to invest up to $1 Billion USD into Latinamerica, Andean and Caribbean regions over the next 5 years. Support the LDA Capital Initiative to empower Latinamerica's talent pool from the Web3 and Industry 4.0 sectors.",
+      description: "Join our one-page pledge commitment to invest up to $1 Billion USD into Latinamerica over the next 5 years. Support the LDA Capital Initiative to empower Latinamerica's talent pool from the Web3 and Industry 4.0 sectors.",
       color: "bg-tge-blue"
     },
     {
@@ -20,7 +20,7 @@ const Index = () => {
     },
     {
       title: "Ecosystem Mapping & Tracking",
-      description: "Comprehensive mapping of startups, support systems, incubators, accelerators as well as Venture Capital investment across Latinamerica, Andean and Caribbean region to identify opportunities and track progress toward our $1B commitment goal.",
+      description: "Comprehensive mapping of startups, support systems, incubators, accelerators as well as Venture Capital investment across Latinamerica to identify opportunities and track progress toward our $1B commitment goal.",
       color: "bg-refi-green"
     }
   ];
@@ -135,7 +135,7 @@ const Index = () => {
                   One Click Pledge
                 </Button>
                 <p className="text-sm text-muted-foreground mt-4">
-                  Join LDA Capital Initiative for Latinamerica, Andean and Caribbean tech ecosystems growth
+                  Join LDA Capital Initiative for Latinamerica tech ecosystems growth
                 </p>
               </div>
 
