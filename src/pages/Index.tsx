@@ -100,7 +100,7 @@ const Index = () => {
                   />
                   <InvestmentVertical
                     title="Regenerative Economies and Environmental Sustainability"
-                    description="Supporting environmental restoration and sustainable development through blockchain-based regenerative finance solutions."
+                    description="Supporting environmental restoration and sustainable development through blockchain-based regenerative finance solutions. Advocating for Real World Natural Assets."
                     color="bg-refi-green"
                     index={2}
                   />
