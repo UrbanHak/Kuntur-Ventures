@@ -15,7 +15,7 @@ const Index = () => {
     },
     {
       title: "TGE Acceleration Program",
-      description: "TGE Acceleration program located in Colombia for latinamerican scaleups ready to launch their tokens and scale across the region with strategic partnerships and institutional backing.",
+      description: "TGE Acceleration program located in Colombia for latinamerican startups ready for TGE and scaling across the region with strategic partnerships and institutional backing.",
       color: "bg-edtech-yellow"
     },
     {
