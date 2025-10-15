@@ -83,7 +83,7 @@ const Partners = () => {
                 partner.name === "Rayo" || partner.name === "Anchorage Digital"
                   ? "bg-white" 
                   : partner.name === "Women in Tech"
-                  ? "bg-[#2020c0]"
+                  ? "bg-[#1d1dc8]"
                   : "bg-gradient-to-br from-muted/20 to-muted/10"
               }`}
             />
