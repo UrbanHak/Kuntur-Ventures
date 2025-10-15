@@ -131,16 +131,31 @@ const Index = () => {
                   <h2 className="text-3xl md:text-4xl font-light text-foreground mb-4 tracking-tight">
                     Kuntur Accelerator Program
                   </h2>
+                  <p className="text-xl text-muted-foreground italic mb-4 tracking-wide">
+                    "Cóndor de los Andes"
+                  </p>
                   <div className="h-px bg-gradient-to-r from-transparent via-muted-foreground to-transparent w-24 mx-auto mb-6"></div>
+                </div>
+                
+                {/* Cultural Story */}
+                <div className="max-w-3xl mx-auto mb-8">
+                  <div className="bg-gradient-to-br from-primary/10 to-primary/5 backdrop-blur-sm border border-primary/20 rounded-lg p-8">
+                    <h3 className="text-2xl font-light text-foreground mb-4 text-center tracking-wide">The Spirit of the Kuntur</h3>
+                    <p className="text-muted-foreground text-base mb-4 text-center leading-relaxed">
+                      <span className="text-foreground font-semibold italic">"Kuntur"</span> — Condor of the Andes in Quechua, the ancient language of the Andean people.
+                    </p>
+                    <p className="text-muted-foreground text-sm text-center leading-relaxed">
+                      The condor soars above the highest peaks of Latinamerica, symbolizing vision, freedom, and connection between earth and sky. 
+                      By naming our program Kuntur, we honor the rich indigenous heritage, cultural wisdom, and natural biodiversity that defines our region. 
+                      Like the condor, we seek to elevate Latinamerican innovation to new heights.
+                    </p>
+                  </div>
                 </div>
                 
                 {/* Program Details */}
                 <div className="max-w-3xl mx-auto mb-12">
                   <div className="bg-card/50 backdrop-blur-sm border border-border rounded-lg p-8">
                     <h3 className="text-2xl font-light text-foreground mb-6 text-center">Program Overview</h3>
-                    <p className="text-muted-foreground text-sm mb-8 text-center italic">
-                      "Kuntur" means condor in Quechua, the native language of the Andean people. We honor Latinamerica's rich culture and biodiversity by choosing this name for our program.
-                    </p>
                     <div className="space-y-4 text-left">
                       <div className="flex items-start gap-4">
                         <div className="w-1 h-12 bg-primary flex-shrink-0"></div>
