@@ -57,7 +57,7 @@ const Index = () => {
                   <br />
                   <span className="text-foreground font-normal">LATINAMERICA, ANDEAN AND CARIBBEAN TECH ECOSYSTEMS</span>
                   <br />
-                  <span className="text-sm md:text-base tracking-[0.2em] mt-2 block">PRESENTED BY JORGE CORTES</span>
+                  <span className="text-sm md:text-base tracking-[0.2em] mt-2 block">Presented by LDA Capital</span>
                 </p>
               </div>
 
