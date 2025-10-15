@@ -6,6 +6,7 @@ import bitbaselLogo from "@/assets/partners/bitbasel-logo.jpg";
 import refidaoLogo from "@/assets/partners/refidao-logo.png";
 import ethereumAllianceLogo from "@/assets/partners/ethereum-alliance-logo.jpg";
 import anchorageDigitalLogo from "@/assets/partners/anchorage-digital-logo.webp";
+import womenInTechLogo from "@/assets/partners/women-in-tech-logo.png";
 
 const Partners = () => {
   const partners = [
@@ -48,6 +49,11 @@ const Partners = () => {
       name: "Anchorage Digital",
       logo: anchorageDigitalLogo,
       alt: "Anchorage Digital logo"
+    },
+    {
+      name: "Women in Tech",
+      logo: womenInTechLogo,
+      alt: "Women in Tech logo"
     }
   ];
 
@@ -74,7 +80,7 @@ const Partners = () => {
               src={partner.logo}
               alt={partner.alt}
               className={`h-40 w-40 object-contain rounded-full opacity-90 hover:opacity-100 transition-opacity duration-300 p-4 ${
-                partner.name === "Rayo" || partner.name === "Anchorage Digital"
+                partner.name === "Rayo" || partner.name === "Anchorage Digital" || partner.name === "Women in Tech"
                   ? "bg-white" 
                   : "bg-gradient-to-br from-muted/20 to-muted/10"
               }`}
