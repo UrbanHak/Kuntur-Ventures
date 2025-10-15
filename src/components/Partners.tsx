@@ -73,12 +73,10 @@ const Partners = () => {
             <img
               src={partner.logo}
               alt={partner.alt}
-              className={`object-contain rounded-full opacity-90 hover:opacity-100 transition-opacity duration-300 p-4 ${
-                partner.name === "Anchorage Digital" 
-                  ? "h-48 w-48 bg-white" 
-                  : partner.name === "Rayo"
-                  ? "h-40 w-40 bg-white"
-                  : "h-40 w-40 bg-gradient-to-br from-muted/20 to-muted/10"
+              className={`h-40 w-40 object-contain rounded-full opacity-90 hover:opacity-100 transition-opacity duration-300 p-4 ${
+                partner.name === "Rayo" || partner.name === "Anchorage Digital"
+                  ? "bg-white" 
+                  : "bg-gradient-to-br from-muted/20 to-muted/10"
               }`}
             />
           </div>
