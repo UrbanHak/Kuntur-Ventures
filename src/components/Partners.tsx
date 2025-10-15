@@ -5,7 +5,6 @@ import rayoLogo from "@/assets/partners/rayo-logo.jpg";
 import bitbaselLogo from "@/assets/partners/bitbasel-logo.jpg";
 import refidaoLogo from "@/assets/partners/refidao-logo.png";
 import ethereumAllianceLogo from "@/assets/partners/ethereum-alliance-logo.jpg";
-import anchorageDigitalLogo from "@/assets/partners/anchorage-digital-logo.png";
 
 const Partners = () => {
   const partners = [
@@ -43,11 +42,6 @@ const Partners = () => {
       name: "Enterprise Ethereum Alliance",
       logo: ethereumAllianceLogo,
       alt: "Enterprise Ethereum Alliance logo"
-    },
-    {
-      name: "Anchorage Digital",
-      logo: anchorageDigitalLogo,
-      alt: "Anchorage Digital logo"
     }
   ];
 
@@ -74,7 +68,7 @@ const Partners = () => {
               src={partner.logo}
               alt={partner.alt}
               className={`h-40 w-40 object-contain rounded-full opacity-90 hover:opacity-100 transition-opacity duration-300 p-4 ${
-                partner.name === "Rayo" || partner.name === "Anchorage Digital"
+                partner.name === "Rayo" 
                   ? "bg-white" 
                   : "bg-gradient-to-br from-muted/20 to-muted/10"
               }`}
