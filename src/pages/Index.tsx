@@ -137,7 +137,6 @@ const Index = () => {
                 {/* Cultural Story */}
                 <div className="max-w-3xl mx-auto mb-8">
                   <div className="bg-gradient-to-br from-primary/10 to-primary/5 backdrop-blur-sm border border-primary/20 rounded-lg p-8">
-                    <h3 className="text-2xl font-light text-foreground mb-4 text-center tracking-wide">The Spirit of the Kuntur</h3>
                     <p className="text-muted-foreground text-base mb-4 text-center leading-relaxed">
                       <span className="text-foreground font-semibold italic">"Kuntur"</span> — Condor of the Andes in Quechua, the ancient language of the Andean people.
                     </p>
