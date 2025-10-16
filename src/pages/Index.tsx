@@ -191,7 +191,7 @@ const Index = () => {
                       <div className="group relative pl-8 border-l-2 border-primary/30 hover:border-primary/60 transition-colors duration-300">
                         <div className="absolute left-[-5px] top-0 w-2.5 h-2.5 rounded-full bg-primary ring-4 ring-primary/20"></div>
                         <div className="space-y-2">
-                          <p className="text-foreground font-semibold text-lg tracking-wide">Mentor Network & Human Capital</p>
+                          <p className="text-foreground font-semibold text-lg tracking-wide">Network of Mentors & Human Capital</p>
                           <p className="text-muted-foreground leading-relaxed">Access to a network of experienced mentors, company builders, and growth experts aligned with our Human Capital area of focus, providing strategic guidance and hands-on support throughout the program.</p>
                         </div>
                       </div>
