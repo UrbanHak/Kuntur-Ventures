@@ -150,43 +150,50 @@ const Index = () => {
                 </div>
                 
                 {/* Program Details */}
-                <div className="max-w-3xl mx-auto mb-12">
-                  <div className="bg-card/50 backdrop-blur-sm border border-border rounded-lg p-8">
-                    <h3 className="text-2xl font-light text-foreground mb-6 text-center">Program Overview</h3>
-                    <div className="space-y-4 text-left">
-                      <div className="flex items-start gap-4">
-                        <div className="w-1 h-12 bg-primary flex-shrink-0"></div>
-                        <div>
-                          <p className="text-foreground font-normal mb-1">Program Start</p>
-                          <p className="text-muted-foreground text-sm">Q1 2026</p>
+                <div className="max-w-4xl mx-auto mb-12">
+                  <div className="relative bg-gradient-to-br from-card/80 to-card/40 backdrop-blur-md border border-border/50 rounded-2xl p-10 shadow-lg">
+                    <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-primary to-transparent rounded-t-2xl"></div>
+                    
+                    <h3 className="text-3xl font-light text-foreground mb-10 text-center tracking-wide">Program Overview</h3>
+                    
+                    <div className="space-y-8">
+                      <div className="group relative pl-8 pb-8 border-l-2 border-primary/30 hover:border-primary/60 transition-colors duration-300">
+                        <div className="absolute left-[-5px] top-0 w-2.5 h-2.5 rounded-full bg-primary ring-4 ring-primary/20"></div>
+                        <div className="space-y-2">
+                          <p className="text-foreground font-semibold text-lg tracking-wide">Program Start</p>
+                          <p className="text-muted-foreground">Q1 2026</p>
                         </div>
                       </div>
-                      <div className="flex items-start gap-4">
-                        <div className="w-1 h-12 bg-primary flex-shrink-0"></div>
-                        <div>
-                          <p className="text-foreground font-normal mb-1">Duration & Location</p>
-                          <p className="text-muted-foreground text-sm">4 months program in Colombia</p>
+                      
+                      <div className="group relative pl-8 pb-8 border-l-2 border-primary/30 hover:border-primary/60 transition-colors duration-300">
+                        <div className="absolute left-[-5px] top-0 w-2.5 h-2.5 rounded-full bg-primary ring-4 ring-primary/20"></div>
+                        <div className="space-y-2">
+                          <p className="text-foreground font-semibold text-lg tracking-wide">Duration & Location</p>
+                          <p className="text-muted-foreground">4 months program in Colombia</p>
                         </div>
                       </div>
-                      <div className="flex items-start gap-4">
-                        <div className="w-1 h-12 bg-primary flex-shrink-0"></div>
-                        <div>
-                          <p className="text-foreground font-normal mb-1">Curriculum Focus</p>
-                          <p className="text-muted-foreground text-sm">Capital Markets, DeFi, RWA & Digital Asset Management, Tokenomics, Growth Strategies and TGE</p>
+                      
+                      <div className="group relative pl-8 pb-8 border-l-2 border-primary/30 hover:border-primary/60 transition-colors duration-300">
+                        <div className="absolute left-[-5px] top-0 w-2.5 h-2.5 rounded-full bg-primary ring-4 ring-primary/20"></div>
+                        <div className="space-y-2">
+                          <p className="text-foreground font-semibold text-lg tracking-wide">Curriculum Focus</p>
+                          <p className="text-muted-foreground leading-relaxed">Capital Markets, DeFi, RWA & Digital Asset Management, Tokenomics, Growth Strategies and TGE</p>
                         </div>
                       </div>
-                      <div className="flex items-start gap-4">
-                        <div className="w-1 h-12 bg-primary flex-shrink-0"></div>
-                        <div>
-                          <p className="text-foreground font-normal mb-1">First Cohort & Investment</p>
-                          <p className="text-muted-foreground text-sm">5 Companies across Education, Regeneration, Creator's Economy, Public Goods, and Space Economy. Each company receives $20,000 USD investment.</p>
+                      
+                      <div className="group relative pl-8 pb-8 border-l-2 border-primary/30 hover:border-primary/60 transition-colors duration-300">
+                        <div className="absolute left-[-5px] top-0 w-2.5 h-2.5 rounded-full bg-primary ring-4 ring-primary/20"></div>
+                        <div className="space-y-2">
+                          <p className="text-foreground font-semibold text-lg tracking-wide">First Cohort & Investment</p>
+                          <p className="text-muted-foreground leading-relaxed">5 Companies across Education, Regeneration, Creator's Economy, Public Goods, and Space Economy. Each company receives $20,000 USD investment.</p>
                         </div>
                       </div>
-                      <div className="flex items-start gap-4">
-                        <div className="w-1 h-12 bg-primary flex-shrink-0"></div>
-                        <div>
-                          <p className="text-foreground font-normal mb-1">Mentor Network & Human Capital</p>
-                          <p className="text-muted-foreground text-sm">Access to a network of experienced mentors, company builders, and growth experts aligned with our Human Capital area of focus, providing strategic guidance and hands-on support throughout the program.</p>
+                      
+                      <div className="group relative pl-8 border-l-2 border-primary/30 hover:border-primary/60 transition-colors duration-300">
+                        <div className="absolute left-[-5px] top-0 w-2.5 h-2.5 rounded-full bg-primary ring-4 ring-primary/20"></div>
+                        <div className="space-y-2">
+                          <p className="text-foreground font-semibold text-lg tracking-wide">Mentor Network & Human Capital</p>
+                          <p className="text-muted-foreground leading-relaxed">Access to a network of experienced mentors, company builders, and growth experts aligned with our Human Capital area of focus, providing strategic guidance and hands-on support throughout the program.</p>
                         </div>
                       </div>
                     </div>
