@@ -5,7 +5,7 @@ import rayoLogo from "@/assets/partners/rayo-logo.jpg";
 import bitbaselLogo from "@/assets/partners/bitbasel-logo.jpg";
 import refidaoLogo from "@/assets/partners/refidao-logo.png";
 import ethereumAllianceLogo from "@/assets/partners/ethereum-alliance-logo.jpg";
-import anchorageDigitalLogo from "@/assets/partners/anchorage-digital-logo.webp";
+import anchorageDigitalLogo from "@/assets/partners/anchorage-digital-logo.png";
 import womenInTechColombiaLogo from "@/assets/partners/women-in-tech-colombia.jpg";
 
 const Partners = () => {
