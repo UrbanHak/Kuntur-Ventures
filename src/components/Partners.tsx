@@ -84,7 +84,9 @@ const Partners = () => {
                   ? "p-0"
                   : "p-4"
               } ${
-                partner.name === "Women in Tech Colombia"
+                partner.name === "Anchorage Digital"
+                  ? "h-80 w-80"
+                  : partner.name === "Women in Tech Colombia"
                   ? "h-32 w-32"
                   : "h-40 w-40"
               } ${
