@@ -81,7 +81,7 @@ const Partners = () => {
               alt={partner.alt}
               className={`object-contain rounded-full opacity-90 hover:opacity-100 transition-opacity duration-300 ${
                 partner.name === "Anchorage Digital"
-                  ? "p-1"
+                  ? "p-0"
                   : "p-4"
               } ${
                 partner.name === "Women in Tech Colombia"
