@@ -7,6 +7,7 @@ import refidaoLogo from "@/assets/partners/refidao-logo.png";
 import ethereumAllianceLogo from "@/assets/partners/ethereum-alliance-logo.jpg";
 import anchorageDigitalLogo from "@/assets/partners/anchorage-digital-new.png";
 import womenInTechColombiaLogo from "@/assets/partners/women-in-tech-colombia.jpg";
+import blockchainLabLogo from "@/assets/partners/blockchain-lab-logo.png";
 
 const Partners = () => {
   const partners = [
@@ -54,6 +55,11 @@ const Partners = () => {
       name: "Women in Tech Colombia",
       logo: womenInTechColombiaLogo,
       alt: "Women in Tech Colombia logo"
+    },
+    {
+      name: "Blockchain Lab",
+      logo: blockchainLabLogo,
+      alt: "Blockchain Lab Digital Worlds Institute logo"
     }
   ];
 
