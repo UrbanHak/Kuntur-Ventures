@@ -184,7 +184,7 @@ const Index = () => {
                         <div className="absolute left-[-5px] top-0 w-2.5 h-2.5 rounded-full bg-primary ring-4 ring-primary/20"></div>
                         <div className="space-y-2">
                           <p className="text-foreground font-semibold text-lg tracking-wide">First Cohort & Investment</p>
-                          <p className="text-muted-foreground leading-relaxed">5 Companies across Education, Regeneration, Creator's Economy, Public Goods, and Space Economy. Each company receives $20,000 USD investment.</p>
+                          <p className="text-muted-foreground leading-relaxed">5 Companies across Education, Regeneration, Creator's Economy, Public Goods, and Space Economy. $40,000 USD to each company as an initial investment.</p>
                         </div>
                       </div>
                       
