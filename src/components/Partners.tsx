@@ -106,10 +106,12 @@ const Partners = () => {
                   ? "h-32 w-32"
                   : "h-40 w-40"
               } ${
-                partner.name === "Rayo" || partner.name === "Anchorage Digital" || partner.name === "Blockchain Lab" || partner.name === "Babson College" || partner.name === "Aurasci"
+                partner.name === "Rayo" || partner.name === "Anchorage Digital" || partner.name === "Blockchain Lab" || partner.name === "Babson College"
                   ? "bg-white" 
                   : partner.name === "Women in Tech Colombia"
                   ? "bg-[#1d1dc8]"
+                  : partner.name === "Aurasci"
+                  ? "bg-black"
                   : "bg-gradient-to-br from-muted/20 to-muted/10"
               }`}
             />
