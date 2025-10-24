@@ -8,6 +8,7 @@ import ethereumAllianceLogo from "@/assets/partners/ethereum-alliance-logo.jpg";
 import anchorageDigitalLogo from "@/assets/partners/anchorage-digital-new.png";
 import womenInTechColombiaLogo from "@/assets/partners/women-in-tech-colombia.jpg";
 import blockchainLabLogo from "@/assets/partners/blockchain-lab-logo.png";
+import babsonCollegeLogo from "@/assets/partners/babson-college-logo.png";
 
 const Partners = () => {
   const partners = [
@@ -60,6 +61,11 @@ const Partners = () => {
       name: "Blockchain Lab",
       logo: blockchainLabLogo,
       alt: "Blockchain Lab Digital Worlds Institute logo"
+    },
+    {
+      name: "Babson College",
+      logo: babsonCollegeLogo,
+      alt: "Babson College logo"
     }
   ];
 
@@ -94,7 +100,7 @@ const Partners = () => {
                   ? "h-32 w-32"
                   : "h-40 w-40"
               } ${
-                partner.name === "Rayo" || partner.name === "Anchorage Digital" || partner.name === "Blockchain Lab"
+                partner.name === "Rayo" || partner.name === "Anchorage Digital" || partner.name === "Blockchain Lab" || partner.name === "Babson College"
                   ? "bg-white" 
                   : partner.name === "Women in Tech Colombia"
                   ? "bg-[#1d1dc8]"
