@@ -9,6 +9,7 @@ import anchorageDigitalLogo from "@/assets/partners/anchorage-digital-new.png";
 import womenInTechColombiaLogo from "@/assets/partners/women-in-tech-colombia.jpg";
 import blockchainLabLogo from "@/assets/partners/blockchain-lab-logo.png";
 import babsonCollegeLogo from "@/assets/partners/babson-college-logo.jpg";
+import aurasciLogo from "@/assets/partners/aurasci-logo.png";
 
 const Partners = () => {
   const partners = [
@@ -66,6 +67,11 @@ const Partners = () => {
       name: "Babson College",
       logo: babsonCollegeLogo,
       alt: "Babson College logo"
+    },
+    {
+      name: "Aurasci",
+      logo: aurasciLogo,
+      alt: "Aurasci logo"
     }
   ];
 
@@ -100,7 +106,7 @@ const Partners = () => {
                   ? "h-32 w-32"
                   : "h-40 w-40"
               } ${
-                partner.name === "Rayo" || partner.name === "Anchorage Digital" || partner.name === "Blockchain Lab" || partner.name === "Babson College"
+                partner.name === "Rayo" || partner.name === "Anchorage Digital" || partner.name === "Blockchain Lab" || partner.name === "Babson College" || partner.name === "Aurasci"
                   ? "bg-white" 
                   : partner.name === "Women in Tech Colombia"
                   ? "bg-[#1d1dc8]"
